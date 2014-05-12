@@ -71,7 +71,6 @@ WITH SERDEPROPERTIES (
         <td>false</td>
     </tr>
 </table>
-<br />
 ##范例
 ```javascript
 hive> CREATE TABLE bitmap_mark (bitmap_table_name string, base_time string) 
