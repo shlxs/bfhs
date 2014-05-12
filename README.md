@@ -3,7 +3,12 @@ bfhs
 
 hive spi
 
+正式环境部署下hive-jms-handler
+1.	将附件中的5个jar放到%HIVE_HOME%/lib，并添加classpath
+2.	将jms-site.xml放到%HIVE_HOME%/conf
+3.	修改jms-site.xml，将borker.url替换为正式bfac使用到的ActiveMQ地址
 
+----------------------------------------------------------------------------
 hive-jms-handler使用规范，其中加粗部分不能修改，[…]部分可选
 1.新建bitmap标记表，只需一张，帮助指定当前操作的bitmap表所属partition
 CREATE TABLE bm_mark_table_name (bm_data_table_name string, base_time string) 
