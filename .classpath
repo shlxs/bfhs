@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6"/>
+	<classpathentry kind="lib" path="lib/commons-logging-api-1.1.1.jar"/>
+	<classpathentry kind="lib" path="lib/activemq-client-5.8.0.jar" sourcepath="d:/repository/org/apache/activemq/activemq-client/5.8.0/activemq-client-5.8.0-sources.jar"/>
+	<classpathentry kind="lib" path="lib/geronimo-jms_1.1_spec-1.1.1.jar" sourcepath="d:/repository/org/apache/geronimo/specs/geronimo-jms_1.1_spec/1.1.1/geronimo-jms_1.1_spec-1.1.1-sources.jar"/>
+	<classpathentry kind="lib" path="lib/hadoop-common-2.0.0-cdh4.3.0.jar"/>
+	<classpathentry kind="lib" path="lib/hadoop-mapreduce-client-core-2.0.0-cdh4.3.0.jar"/>
+	<classpathentry kind="lib" path="lib/hive-exec-0.10.0-cdh4.3.1.jar"/>
+	<classpathentry kind="lib" path="lib/hive-metastore-0.10.0-cdh4.3.1.jar"/>
+	<classpathentry kind="lib" path="lib/geronimo-j2ee-management_1.1_spec-1.0.1.jar"/>
+	<classpathentry kind="lib" path="lib/bfac.dtd.1.0.1.jar"/>
+	<classpathentry kind="lib" path="lib/hadoop-hdfs-2.0.0-cdh4.3.0.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
