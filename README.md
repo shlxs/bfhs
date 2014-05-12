@@ -1,8 +1,6 @@
 bfhs
 ====
 
-hive spi
-
 ##hive-jms-handler部署
 * 将附件中的5个jar放到%HIVE_HOME%/lib，并添加classpath
 * 将jms-site.xml放到%HIVE_HOME%/conf
